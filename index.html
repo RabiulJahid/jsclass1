@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!--Fonts links-->
+       
+
+        <!--CSS Links-->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/media.css" />
+        <title>javascript</title>
+    </head>
+<body>
+    <!--CONTENT CHANGE-->
+    <h5 class="text-center">Change HTML Content single click</h5>
+
+    <div class="container text-center py-3">
+        <h3 class="text-danger mb-3" id="h3">Click the bellow button and change this word</h3>
+        <button class="btn btn-success" onclick="textChange()">click me!</button>
+    </div>
+
+    <h5 class="text-center">Change HTML Content double click</h5>
+    <div class="container text-center py-3">
+        <h2 class="text-danger mb-3" id="h2">Double Click the bellow button and change this word</h2>
+        <button class="btn btn-success" ondblclick="TextChange()">click me!</button>
+    </div>
+
+    
+
+
+
+
+    <h5 class="text-center">Change HTML Content hoverout</h5>
+    <div class="container text-center py-3">
+        <h3 class="text-danger mb-3" id="out_Hover">Click the bellow button and change this word</h3>
+        <button class="btn btn-success" onmouseout="textchange()">click me!</button>
+    </div>
+
+
+
+
+
+    <!--CONTENT CHANGE-->
+
+<h5 class="text-center">large HTML Content</h5>
+<div class="container text-center py-3">
+    <h3 class="text-center text-success" id="changeCss">JavaScript can change the style of an HTML element</h3>
+    <button typ="button" class="btn btn-success" onclick="document.getElementById('changeCss') . style.fontSize='45px'">click me!</button>
+</div>
+<!--NUMBER-->
+<div class="container text-center">
+    <p id="rootp" class="text-success">Numeric number created</p>
+    <button class="btn btn-danger" type="button" onclick="numberChange()">click me</button>
+</div>
+
+<div class="container text-center">
+    <p id="commonp">Click the bellow button and change the layout of this paragraph</p>
+    <button class="btn btn-info" ondblclick="colorChange()">dbl click</button>
+</div>
+
+<div class="container text-center">
+    <h4>Change last name to last name</h4>
+    <p id="nameC"></p>
+    <button class="btn btn-success" onclick="changeName()">click</button>
+</div>
+
+<div class="container text-center">
+    <h2 id="fiveh2"></h2>
+    <button class="btn btn-outline-success" onclick="newText()">click</button>
+</div>
+
+       
+
+<!-- JS Links-->
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+        
+
+
+ 
+</body>
+</html>
